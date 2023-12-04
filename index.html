@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url('header-background.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Add more styles for other elements like buttons, images, text fields, etc. */
+
+        /* Example styling for a button */
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        /* Example styling for a form */
+        form {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        /* Example styling for a card */
+        .card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        /* Add more styles as needed */
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to our Car Rental System</h1>
+        <p>Find the perfect car for your journey.</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cars</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <form>
+            <label for="carType">Car Type:</label>
+            <select id="carType">
+                <option value="sedan">Sedan</option>
+                <option value="suv">SUV</option>
+                <option value="convertible">Convertible</option>
+            </select>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" placeholder="Enter location">
+
+            <button type="submit" class="button">Search</button>
+        </form>
+
+        <div class="card">
+            <img src="car-image.jpg" alt="Car Image">
+            <h2>Car Model</h2>
+            <p>Description of the car. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="button">Rent Now</button>
+        </div>
+
+        <!-- More cards for additional cars -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Car Rental System</p>
+    </footer>
+
+</body>
+</html>
+
